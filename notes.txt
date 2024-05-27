@@ -1,0 +1,40 @@
+Q.1] what is dl?
+A.] Deep learning is a process inspired by the human brains learning system. It is a subset of Machine learning and the key difference in DL and ML is that there no algorithms used in DeepLearning but we use frameworks such as ANN RNN CNN LSTM etc, in these architectured are include a component called perceptron and it is a network of those which has different layers such as input/hidden/output and there are multiple hidden layers hance the name 'Deep' in deep learning
+
+q2. what are neurons
+a. neurons are basic building blocks of the human brain which are mostly responsible for human senses and decision making, there are billions of such neurons in the human brain
+
+q3. what is a neural network
+A. a neural network is an architecture composing of multiple perceptrons which are interconnected to form a complete structure including the input layer, hidden layer, and the output layer, and its main goal is th suimulate the working of a human brain
+
+q4. difference in ML and DL
+a. 	Deep learning is a process inspired by the human brains learning system. It is a subset of Machine learning and the key difference in DL and ML is that there no algorithms used in DeepLearning but we use frameworks such as ANN RNN CNN LSTM etc.... It is used in most cases that involves images/ audio/ text, A DL network can keep on improving its predictions whereas ML algorithms are capped at a certian performance level
+	ML models need to be trained for the exact purpose that they are going to be used for. Some of the algorithms that are used in ML are lR logR, KNn, SVM etc. ML is also not that effective on large amount of data
+
+q5. what is a perceptron 
+a. The perceptron is a mathematical model of a biological neuron, it includes inputs, weights and an output along with an activation function and bias... a network of these interconnected perceptrons can be called as an ANN
+
+q6. why do we need wrights
+a. weights control how much importance the network pays to different parts of the input data. By adjusting these weights during training, the network learns to pick up on important patterns and important features and make accurate predictions or classifications
+
+q7. why is bias needed?
+a. bias is an additional parameter added to each neuron in the network. It allows the network to capture patterns more accurately by shifting the activation function which determines if the neuron "fires" or not. If all the inputs to the next neuron are 0 / close to 0 then the bias ensures that the neuron can still  be activated and contribute to the network's output
+
+q8. what is an activation function
+a. An activation function in deep learning is like a decision-maker for each neuron in a neural network. It takes in the weighted sum of inputs to the neuron and decides whether the neuron should be activated or not. There are different types of AF such as linear/ sigmoid/ tanh/ RELU etc
+
+q9. how many neurons in the output layer
+a. the number of neurons in the output layer is determined by the specific requirements of your problem. 
+In Classification there can be as many output neurons as the number of labels
+In Regression typically theres is only one output neuron
+There are also some multi output problems which tackle different aspects, Ex. if you want to predict the age/gender of a person based on the image then that network will have 2 neurons
+
+q10. Different types of activation functions
+A. linear, sigmoid (0-1), tanH(-1,1), RELU [max(0,x)]
+sigmoid : The sigmoid function, also known as the logistic function, squashes the input values into the range of 0 to 1.
+
+tanH : The tanh function is similar to the sigmoid but squashes input values into the range of -1 to 1., Tanh addresses the issue of output range limitation of the sigmoid function, allowing negative values as well. hence it is more preferable than sigmoid
+
+relu : ReLU function outputs the input directly if it's positive, and zero otherwise.
+
+
